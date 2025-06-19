@@ -1,16 +1,15 @@
 import streamlit as st
 import nltk
 import spacy
-spacy.load('en_core_web_sm')
+
 nltk.download('stopwords')
 nltk.download('punkt')
 nltk.download('averaged_perceptron_tagger')
 nltk.download('wordnet')
 
-# import en_core_web_sm
-# nlp = en_core_web_sm.load()
-
- # require for pyresparser
+import en_core_web_sm
+nlp = en_core_web_sm.load()
+# require for pyresparser
 
 import requests 
 import re
