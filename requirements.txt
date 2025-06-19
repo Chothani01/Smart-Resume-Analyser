@@ -1,9 +1,19 @@
+# python-dateutil==2.8.2
+# numpy==1.23.5
+# pandas==1.3.5
+# pdfminer.six==20201018
+# nltk==3.7
+# spacy==3.0.0
+# pyresparser==1.0.6
+# streamlit>=1.25.0
+# requests
+
 python-dateutil==2.8.2
-numpy==1.23.5
-pandas==1.3.5
-pdfminer.six==20201018
-nltk==3.7
-spacy==3.0.0
-pyresparser==1.0.6
-streamlit>=1.25.0
+numpy==1.26.4
+pandas==2.2.2
+pdfminer.six==20231228
+nltk==3.8.1
+spacy==3.7.4
+pyresparser @ git+https://github.com/Chothani01/pyresparser.git
+streamlit>=1.32.0
 requests

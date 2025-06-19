@@ -7,8 +7,8 @@ nltk.download('punkt')
 nltk.download('averaged_perceptron_tagger')
 nltk.download('wordnet')
 
-import en_core_web_sm
-nlp = en_core_web_sm.load()
+import spacy
+spacy.load('en_core_web_sm')
  # require for pyresparser
 
 import requests 
